@@ -1,0 +1,106 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 74 (0x4a)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=Google, OU=Enterprise, CN=Enterprise Subordinate CA
+        Validity
+            Not Before: Jan  5 14:29:05 2022 GMT
+            Not After : Jun 28 14:29:05 2027 GMT
+        Subject: C=US, O=Google, OU=Enterprise, CN=*.googleapis.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:c3:91:b5:83:40:bc:d2:bb:06:89:bd:6f:7e:9c:
+                    57:07:48:66:4e:19:36:22:3e:ae:76:2d:c9:d6:a5:
+                    01:23:9f:67:78:09:5b:d5:d4:70:b6:14:d3:43:3d:
+                    2a:70:d3:a2:d6:bd:be:3e:a5:f2:1c:11:10:a7:c2:
+                    2e:74:fc:43:4b:90:4b:76:4d:b4:99:fe:ab:b5:08:
+                    e3:82:1b:f2:f8:2c:47:df:c6:92:a6:6f:61:5a:0c:
+                    14:2a:3a:26:73:cb:ca:cd:da:dd:d7:72:2c:73:0f:
+                    9b:70:73:0a:87:3a:95:0a:20:1d:5d:01:68:fc:e3:
+                    8b:60:3c:e8:99:d5:fd:67:5e:ed:b5:b5:8e:4c:6c:
+                    f4:d7:f2:c1:1b:74:be:0f:41:9b:97:5c:0e:d8:c0:
+                    19:f8:0e:12:bf:e7:90:02:90:91:e4:46:88:10:b1:
+                    e8:07:17:61:65:75:e1:4c:84:23:4f:6a:26:18:11:
+                    7b:d1:ca:9e:43:e4:a2:94:56:35:4f:ed:56:89:4b:
+                    2a:63:8c:9a:3e:bd:bc:50:c6:79:d5:28:fa:12:7f:
+                    66:66:c6:d6:7d:69:29:b1:97:a9:e8:d7:a2:da:e8:
+                    01:65:df:1f:28:ab:a5:e1:ee:98:14:72:b4:f4:8e:
+                    26:04:be:85:f9:c7:4c:f5:9d:ba:99:19:29:b1:bf:
+                    97:f7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Key Identifier: 
+                9E:27:89:B6:50:A2:9B:FD:47:BE:F6:45:BD:2A:55:A6:1F:2F:8A:53
+            X509v3 Authority Key Identifier: 
+                keyid:BF:E1:1C:F0:22:48:8F:FC:3B:CF:5D:D9:ED:AE:88:70:21:DF:DD:86
+
+            Authority Information Access: 
+                CA Issuers - URI:http://pki.esodemoapp2.com/ca/tls-ca.cer
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.esodemoapp2.com/ca/tls-ca.crl
+
+            X509v3 Subject Alternative Name: 
+                DNS:edgecert.googleapis.com, DNS:android.googleapis.com, DNS:bigtable.googleapis.com, DNS:clouderrorreporting.googleapis.com, DNS:cloudtrace.googleapis.com, DNS:container.googleapis.com, DNS:dataflow.googleapis.com, DNS:datastore.googleapis.com, DNS:dlp.googleapis.com, DNS:fcm.googleapis.com, DNS:firestore.googleapis.com, DNS:logging.googleapis.com, DNS:monitoring.googleapis.com, DNS:pubsub.googleapis.com, DNS:runtimeconfig.googleapis.com, DNS:servicecontrol.googleapis.com, DNS:spanner.googleapis.com, DNS:stackdriver.googleapis.com, DNS:*.googleapis.com
+    Signature Algorithm: sha1WithRSAEncryption
+         7c:31:7a:67:06:6e:3c:e2:18:22:72:62:fd:05:db:92:f2:bf:
+         67:c8:5c:18:53:ea:47:f1:c9:de:f1:1f:22:41:17:a4:fb:f5:
+         88:cb:d9:8b:6b:07:ef:bd:0a:96:a9:4d:31:80:4d:70:97:13:
+         c4:07:1b:9b:f4:9f:3a:6d:b1:2d:77:4d:19:33:d6:a0:37:c0:
+         ae:a3:8e:8b:3d:58:03:ec:90:d6:f6:bf:86:db:9c:f5:b9:1b:
+         11:84:b4:5d:20:c6:b7:4c:be:b4:4b:ed:1f:cd:58:fd:9b:13:
+         68:a3:ad:e1:ba:79:e0:4c:48:61:a5:60:5e:d2:7c:f8:8e:7a:
+         bb:2c:ac:53:5b:ec:19:93:da:b2:99:50:f3:4d:ae:10:57:7b:
+         e0:a7:d4:b3:bf:5e:44:4c:06:52:9e:01:2f:be:d7:c5:05:de:
+         36:7b:7b:81:1d:20:b7:af:61:4c:f2:9d:8f:64:a2:9a:48:45:
+         94:de:5a:80:89:89:71:5a:f7:87:b7:82:e2:cc:aa:af:76:2d:
+         32:49:c0:cf:fb:3e:bd:28:d1:20:85:34:2d:0a:50:26:49:7a:
+         fa:1b:1b:0d:8f:e5:c0:73:f8:c1:b6:61:cf:1b:df:a6:c9:fd:
+         7b:b0:95:07:7f:e9:70:24:67:5a:57:5f:c3:dc:30:da:ef:21:
+         bb:8c:8a:a1
+-----BEGIN CERTIFICATE-----
+MIIGDTCCBPWgAwIBAgIBSjANBgkqhkiG9w0BAQUFADBXMQswCQYDVQQGEwJVUzEP
+MA0GA1UECgwGR29vZ2xlMRMwEQYDVQQLDApFbnRlcnByaXNlMSIwIAYDVQQDDBlF
+bnRlcnByaXNlIFN1Ym9yZGluYXRlIENBMB4XDTIyMDEwNTE0MjkwNVoXDTI3MDYy
+ODE0MjkwNVowTjELMAkGA1UEBhMCVVMxDzANBgNVBAoMBkdvb2dsZTETMBEGA1UE
+CwwKRW50ZXJwcmlzZTEZMBcGA1UEAwwQKi5nb29nbGVhcGlzLmNvbTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMORtYNAvNK7Bom9b36cVwdIZk4ZNiI+
+rnYtydalASOfZ3gJW9XUcLYU00M9KnDTota9vj6l8hwREKfCLnT8Q0uQS3ZNtJn+
+q7UI44Ib8vgsR9/GkqZvYVoMFCo6JnPLys3a3ddyLHMPm3BzCoc6lQogHV0BaPzj
+i2A86JnV/Wde7bW1jkxs9NfywRt0vg9Bm5dcDtjAGfgOEr/nkAKQkeRGiBCx6AcX
+YWV14UyEI09qJhgRe9HKnkPkopRWNU/tVolLKmOMmj69vFDGedUo+hJ/ZmbG1n1p
+KbGXqejXotroAWXfHyirpeHumBRytPSOJgS+hfnHTPWdupkZKbG/l/cCAwEAAaOC
+AuswggLnMA4GA1UdDwEB/wQEAwIHgDAJBgNVHRMEAjAAMBMGA1UdJQQMMAoGCCsG
+AQUFBwMBMB0GA1UdDgQWBBSeJ4m2UKKb/Ue+9kW9KlWmHy+KUzAfBgNVHSMEGDAW
+gBS/4RzwIkiP/DvPXdntrohwId/dhjBEBggrBgEFBQcBAQQ4MDYwNAYIKwYBBQUH
+MAKGKGh0dHA6Ly9wa2kuZXNvZGVtb2FwcDIuY29tL2NhL3Rscy1jYS5jZXIwOQYD
+VR0fBDIwMDAuoCygKoYoaHR0cDovL3BraS5lc29kZW1vYXBwMi5jb20vY2EvdGxz
+LWNhLmNybDCCAfIGA1UdEQSCAekwggHlghdlZGdlY2VydC5nb29nbGVhcGlzLmNv
+bYIWYW5kcm9pZC5nb29nbGVhcGlzLmNvbYIXYmlndGFibGUuZ29vZ2xlYXBpcy5j
+b22CImNsb3VkZXJyb3JyZXBvcnRpbmcuZ29vZ2xlYXBpcy5jb22CGWNsb3VkdHJh
+Y2UuZ29vZ2xlYXBpcy5jb22CGGNvbnRhaW5lci5nb29nbGVhcGlzLmNvbYIXZGF0
+YWZsb3cuZ29vZ2xlYXBpcy5jb22CGGRhdGFzdG9yZS5nb29nbGVhcGlzLmNvbYIS
+ZGxwLmdvb2dsZWFwaXMuY29tghJmY20uZ29vZ2xlYXBpcy5jb22CGGZpcmVzdG9y
+ZS5nb29nbGVhcGlzLmNvbYIWbG9nZ2luZy5nb29nbGVhcGlzLmNvbYIZbW9uaXRv
+cmluZy5nb29nbGVhcGlzLmNvbYIVcHVic3ViLmdvb2dsZWFwaXMuY29tghxydW50
+aW1lY29uZmlnLmdvb2dsZWFwaXMuY29tgh1zZXJ2aWNlY29udHJvbC5nb29nbGVh
+cGlzLmNvbYIWc3Bhbm5lci5nb29nbGVhcGlzLmNvbYIac3RhY2tkcml2ZXIuZ29v
+Z2xlYXBpcy5jb22CECouZ29vZ2xlYXBpcy5jb20wDQYJKoZIhvcNAQEFBQADggEB
+AHwxemcGbjziGCJyYv0F25Lyv2fIXBhT6kfxyd7xHyJBF6T79YjL2YtrB++9Cpap
+TTGATXCXE8QHG5v0nzptsS13TRkz1qA3wK6jjos9WAPskNb2v4bbnPW5GxGEtF0g
+xrdMvrRL7R/NWP2bE2ijreG6eeBMSGGlYF7SfPiOerssrFNb7BmT2rKZUPNNrhBX
+e+Cn1LO/XkRMBlKeAS++18UF3jZ7e4EdILevYUzynY9koppIRZTeWoCJiXFa94e3
+guLMqq92LTJJwM/7Pr0o0SCFNC0KUCZJevobGw2P5cBz+MG2Yc8b36bJ/XuwlQd/
+6XAkZ1pXX8PcMNrvIbuMiqE=
+-----END CERTIFICATE-----
