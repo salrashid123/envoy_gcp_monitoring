@@ -53,6 +53,8 @@ static_resources:
               stats_for_all_methods: true
               enable_upstream_stats: true              
           - name: envoy.filters.http.router
+            typed_config:
+              "@type": type.googleapis.com/envoy.extensions.filters.http.router.v3.Router  
       transport_socket:
         name: envoy.transport_sockets.tls
         typed_config:
@@ -61,9 +63,9 @@ static_resources:
           common_tls_context:
             tls_certificates:
             - certificate_chain:
-                filename: /certs/googleapis.crt
+                filename: certs/googleapis.crt
               private_key:
-                filename: /certs/googleapis.key
+                filename: certs/googleapis.key
   clusters:
   - name: service_pubsub
     connect_timeout: 0.25s
